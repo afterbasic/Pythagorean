@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 double System_Hypotenuse_Function(double System_Variabel_Left, double System_Variabel_Bottom, double System_Phi_Angle);
 double System_Theta_Angle_Calculation(double System_Parameter_Left, double System_Parameter_Bottom);
 void System_Return_Text_1();
@@ -21,9 +22,10 @@ int main() {
   std::cin >> System_Parameter_Variabel_Phi;
   System_Return_Text_3(System_Parameter_Variabel_A, System_Parameter_Variabel_B, System_Parameter_Variabel_Phi);
   System_Return_Text_5(System_Parameter_Variabel_A, System_Parameter_Variabel_B);
-  for(int i = 1; i <= System_Parameter_Variabel_B; ++i)
+  for(int System_Parameter_Index = 1;
+  System_Parameter_Index <= System_Parameter_Variabel_B; System_Parameter_Index = (System_Parameter_Index +(1)))
     {
-        for(int j = 1; j <= i; ++j)
+        for(int System_Parameter_Index_xb626 = 1; System_Parameter_Index_xb626 <= System_Parameter_Index; System_Parameter_Index_xb626 = (System_Parameter_Index_xb626 + (1)))
         {
             std::cout << "x";
         }
